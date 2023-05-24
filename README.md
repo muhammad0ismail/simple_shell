@@ -5,4 +5,7 @@ Builtin.c
 a shell that implements the exit, cd, and help commands. The exit command exits the shell, the cd command changes the current directory, and the help command displays help information about the shell commands.
 
 --------------
+a function called _myalias that mimics the alias builtin (man alias). The function works by first checking if the user has provided any arguments. If the user has not provided any arguments, the function prints all of the aliases. If the user has provided arguments, the function checks if each argument is an alias. If an argument is an alias, the function sets the alias. If an argument is not an alias, the function prints the alias with the given name.
+
+-------------
 
